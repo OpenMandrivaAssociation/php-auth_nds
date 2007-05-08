@@ -7,7 +7,7 @@
 Summary:	The %{realname} module for PHP
 Name:		php-%{modname}
 Version:	2.2.6
-Release:	%mkrel 3
+Release:	%mkrel 4
 Group:		Development/PHP
 License:	GPL
 URL:		ftp://platan.vc.cvut.cz/pub/linux/ncpfs/
@@ -60,5 +60,3 @@ EOF
 %doc site README*
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/php.d/%{inifile}
 %attr(0755,root,root) %{_libdir}/php/extensions/%{soname}
-
-
