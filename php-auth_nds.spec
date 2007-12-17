@@ -14,7 +14,6 @@ URL:		ftp://platan.vc.cvut.cz/pub/linux/ncpfs/
 Source0:	php-%{modname}-%{version}.tar.bz2
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	ncpfs-devel
-BuildRoot:	%{_tmppath}/%{name}-root
 
 %description
 This is a dynamic shared object (DSO) that adds Auth NDS support to PHP.
