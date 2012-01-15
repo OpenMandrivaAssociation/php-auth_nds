@@ -7,7 +7,7 @@
 Summary:	The %{realname} module for PHP
 Name:		php-%{modname}
 Version:	2.2.6
-Release:	%mkrel 28
+Release:	%mkrel 29
 Group:		Development/PHP
 License:	GPL
 URL:		ftp://platan.vc.cvut.cz/pub/linux/ncpfs/
