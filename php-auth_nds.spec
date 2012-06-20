@@ -12,6 +12,7 @@ Group:		Development/PHP
 License:	GPL
 URL:		ftp://platan.vc.cvut.cz/pub/linux/ncpfs/
 Source0:	php-%{modname}-%{version}.tar.gz
+Patch0:		php-auth_nds-2.2.6-php54x.diff
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	ncpfs-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -22,6 +23,8 @@ This is a dynamic shared object (DSO) that adds Auth NDS support to PHP.
 %prep
 
 %setup -q -n php-%{modname}-%{version}
+
+%patch0 -p0
 
 # small hack
 #cat >> config.h << EOF
