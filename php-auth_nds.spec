@@ -7,11 +7,11 @@
 Summary:	The %{realname} module for PHP
 Name:		php-%{modname}
 Version:	2.2.6
-Release:	%mkrel 30
+Release:	%mkrel 31
 Group:		Development/PHP
 License:	GPL
 URL:		ftp://platan.vc.cvut.cz/pub/linux/ncpfs/
-Source0:	php-%{modname}-%{version}.tar.bz2
+Source0:	php-%{modname}-%{version}.tar.gz
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	ncpfs-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
